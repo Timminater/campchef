@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CampChef Integration Setup",
+        "description": "Enter your CampChef account email address. You will receive a 6-digit PIN code via email.",
+        "data": {
+          "email": "Email Address"
+        }
+      },
+      "pin": {
+        "title": "Enter PIN Code",
+        "description": "Check your inbox and spam folder for the 6-digit PIN sent to {email}. Enter the newest code below.",
+        "data": {
+          "pin": "PIN Code"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate CampChef",
+        "description": "Your CampChef session has expired. Continue to send a new PIN to {email}."
+      }
+    },
+    "error": {
+      "invalid_email": "CampChef rejected the email address or the PIN request.",
+      "invalid_pin": "Invalid PIN code. Please check your email and try again.",
+      "invalid_auth": "Authentication failed. Please try again.",
+      "cannot_connect": "Unable to connect to CampChef servers. Please check your internet connection.",
+      "unknown": "An unexpected error occurred. Please try again."
+    },
+    "abort": {
+      "already_configured": "This CampChef account is already configured.",
+      "reauth_successful": "Re-authentication successful.",
+      "wrong_account": "The PIN was verified for a different CampChef account. Sign in with the account already connected to this integration."
+    }
+  }
+}

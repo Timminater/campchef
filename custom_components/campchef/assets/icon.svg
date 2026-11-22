@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- CampChef style BBQ grill icon with orange/red colors from the real logo -->
+  <defs>
+    <linearGradient id="campChefGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7043;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D84315;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flameGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6F00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF8F00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC107;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main grill body -->
+  <rect x="4" y="14" width="16" height="6" rx="3" fill="#424242" stroke="#616161" stroke-width="0.5"/>
+
+  <!-- Grill lid/dome -->
+  <ellipse cx="12" cy="14" rx="8" ry="4" fill="url(#campChefGradient)" stroke="#FFFFFF" stroke-width="0.5"/>
+
+  <!-- Grill grates -->
+  <line x1="6" y1="14" x2="18" y2="14" stroke="#757575" stroke-width="1"/>
+  <line x1="6" y1="15" x2="18" y2="15" stroke="#757575" stroke-width="0.8"/>
+
+  <!-- Temperature gauge/dial -->
+  <circle cx="12" cy="12" r="2.5" fill="#37474F" stroke="#FFFFFF" stroke-width="0.5"/>
+  <circle cx="12" cy="12" r="1.5" fill="#263238"/>
+  <line x1="12" y1="10.5" x2="12" y2="11.5" stroke="#FF5722" stroke-width="1"/>
+
+  <!-- Flame/heat indicators -->
+  <path d="M8 13 Q7.5 10.5 8.5 8.5 Q9 9.5 10 8.5 Q10.5 9.5 11 8.5"
+        fill="url(#flameGradient)" opacity="0.8"/>
+  <path d="M13 8.5 Q13.5 9.5 14 8.5 Q14.5 9.5 15.5 8.5 Q16.5 10.5 16 13"
+        fill="url(#flameGradient)" opacity="0.8"/>
+
+  <!-- Small details -->
+  <circle cx="8" cy="18" r="0.8" fill="#616161"/> <!-- Wheel -->
+  <circle cx="16" cy="18" r="0.8" fill="#616161"/> <!-- Wheel -->
+
+</svg>

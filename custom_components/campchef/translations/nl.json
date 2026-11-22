@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Camp Chef instellen",
+        "description": "Vul het e-mailadres van je Camp Chef-account in. Je ontvangt per e-mail een pincode van zes cijfers.",
+        "data": {
+          "email": "E-mailadres"
+        }
+      },
+      "pin": {
+        "title": "Pincode invoeren",
+        "description": "Kijk in je inbox en bij ongewenste e-mail. Vul de nieuwste pincode van zes cijfers in die is verstuurd naar {email}.",
+        "data": {
+          "pin": "Pincode"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Opnieuw aanmelden bij Camp Chef",
+        "description": "Je Camp Chef-sessie is verlopen. Ga verder om een nieuwe pincode naar {email} te sturen."
+      }
+    },
+    "error": {
+      "invalid_email": "Camp Chef heeft het e-mailadres of de aanvraag geweigerd.",
+      "invalid_pin": "Ongeldige pincode. Controleer je e-mail en probeer het opnieuw.",
+      "invalid_auth": "Aanmelden is mislukt. Probeer het opnieuw.",
+      "cannot_connect": "Verbinding met Camp Chef is mislukt. Probeer het opnieuw.",
+      "unknown": "Er ging iets mis. Probeer het opnieuw."
+    },
+    "abort": {
+      "already_configured": "Dit Camp Chef-account is al ingesteld.",
+      "reauth_successful": "Opnieuw aanmelden is gelukt.",
+      "wrong_account": "De pincode hoort bij een ander Camp Chef-account. Meld je aan met het account dat al aan deze integratie is gekoppeld."
+    }
+  }
+}

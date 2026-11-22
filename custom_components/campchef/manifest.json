@@ -1,0 +1,12 @@
+{
+  "domain": "campchef",
+  "name": "CampChef BBQ Grills",
+  "codeowners": ["@Timminater"],
+  "documentation": "https://github.com/Timminater/campchef",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/Timminater/campchef/issues",
+  "requirements": ["aiohttp", "websockets"],
+  "config_flow": true,
+  "version": "1.0.1"
+}
